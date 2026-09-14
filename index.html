@@ -11,10 +11,15 @@
 <meta property="og:title" content="Cheap Flight Deals from the UK | Galaxy Fly">
 <meta property="og:description" content="Find cheap flight deals from the UK to Dubai, USA, Europe, Asia and worldwide destinations. Compare affordable flights and book with Galaxy Fly.">
 <meta property="og:url" content="https://galaxyfly.co.uk/">
-<meta property="og:image" content="https://galaxyfly.co.uk/">
+<meta property="og:image" content="https://galaxyfly.co.uk/hero.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_GB">
+<meta property="og:site_name" content="Galaxy Fly">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Cheap Flight Deals from the UK | Galaxy Fly">
 <meta name="twitter:description" content="Cheap flight deals from the UK to destinations worldwide. ATOL protected. Call 0208 178 4401.">
+<meta name="twitter:image" content="https://galaxyfly.co.uk/hero.jpg">
 <meta name="theme-color" content="#071525">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,7 +61,6 @@ nav.desk a:hover,.nav-drop>button:hover{color:var(--g)}
 .mnav.open{display:flex}
 .mnav a,.mnav .close{color:#fff;font-weight:600;font-size:16px;padding:14px 8px;border:0;border-bottom:1px solid rgba(255,255,255,.08);background:none;text-align:left;cursor:pointer;font-family:var(--font)}
 .mnav .close{align-self:flex-end;font-size:22px}.mnav .sub{font-size:14px;opacity:.85;padding-left:16px}
-
 .hero{min-height:min(88vh,820px);display:flex;align-items:center;position:relative;overflow:hidden;
 background:linear-gradient(105deg,#04101dec 0%,#04101d99 50%,#04101d55 100%),url("hero.jpg") center/cover no-repeat}
 .hero::before{content:"";position:absolute;inset:0;background:inherit;background-size:cover;background-position:center;animation:heroKen 22s ease-in-out infinite alternate;pointer-events:none}
@@ -69,7 +73,6 @@ h1,h2,h3{font-family:var(--serif);line-height:1.15;font-weight:600}
 h1{font-size:clamp(36px,5.5vw,58px);margin:12px 0 14px;letter-spacing:-.02em;color:#fff}
 .hero p{font-size:clamp(15px,1.7vw,17px);color:#e6edf4;max-width:540px;margin:0 0 24px}
 .actions{display:flex;gap:10px;flex-wrap:wrap;animation:fadeUp .85s ease .3s both}
-
 .search-wrap{position:relative;z-index:5;margin-top:-70px;animation:fadeUp .8s ease .4s both}
 .search{background:#fff;border-radius:20px;padding:18px;box-shadow:0 22px 60px rgba(7,21,37,.16)}
 .tabs{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap}
@@ -81,26 +84,22 @@ h1{font-size:clamp(36px,5.5vw,58px);margin:12px 0 14px;letter-spacing:-.02em;col
 .field input,.field select{width:100%;border:0;background:transparent;font-weight:600;font-size:13px;color:var(--n);outline:none;font-family:var(--font)}
 .search .go{border:0;background:var(--g);border-radius:12px;font-weight:800;padding:0 16px;cursor:pointer;font-size:12px;color:#111;font-family:var(--font);min-height:48px}
 .search-note{display:block;margin-top:10px;font-size:12px;color:#7b8592}
-
 section{padding:72px 0}
 .head{max-width:640px;margin-bottom:28px}
 .head h2{font-size:clamp(28px,3.8vw,42px);color:var(--n);margin:6px 0 10px}
 .head p{color:var(--m);font-size:15px}
-
 .intro{background:var(--c)}
 .intro-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:32px;align-items:center}
 .intro-copy h2{font-size:clamp(28px,3.5vw,38px);color:var(--n);margin:6px 0 12px}
 .intro-copy p{color:var(--m);margin-bottom:12px;font-size:15px}
 .intro-img{border-radius:18px;overflow:hidden;aspect-ratio:4/3;box-shadow:0 16px 40px rgba(7,21,37,.12)}
 .intro-img img{width:100%;height:100%;object-fit:cover}
-
 .air-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
 .air{background:#fff;border:1px solid #eeeae2;border-radius:16px;padding:20px 14px;text-align:center;transition:transform .3s,box-shadow .3s}
 .air:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(7,21,37,.08)}
 .air h3{font-size:17px;color:var(--n);margin:0 0 6px}
 .air p{font-size:12px;color:var(--m);margin-bottom:10px}
 .air a{font-size:12px;font-weight:700;color:var(--n);border-bottom:1px solid var(--g)}
-
 .destgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 .dest{position:relative;border-radius:18px;overflow:hidden;min-height:300px;display:flex;align-items:flex-end;background-size:cover;background-position:center;transition:transform .35s}
 .dest:hover{transform:translateY(-5px)}
@@ -110,21 +109,18 @@ section{padding:72px 0}
 .dest-inner h3{font-size:22px;margin:4px 0 8px}
 .dest-inner p{font-size:13px;opacity:.9;margin-bottom:10px}
 .dest-inner .cta{font-size:13px;font-weight:700;color:var(--gl)}
-
 .deal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 .deal{border:1px solid #eeeae2;border-radius:16px;padding:22px;background:#faf9f6;transition:border-color .25s,box-shadow .25s}
 .deal:hover{border-color:rgba(200,169,107,.5);box-shadow:0 10px 28px rgba(7,21,37,.06)}
 .deal h3{font-size:18px;color:var(--n);margin:0 0 8px}
 .deal p{font-size:13px;color:var(--m);margin-bottom:12px}
 .deal a{font-size:13px;font-weight:700;color:var(--n);border-bottom:1px solid var(--g)}
-
 .route-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
 .route{background:var(--n);color:#fff;border-radius:14px;padding:16px;transition:transform .3s,background .3s}
 .route:hover{transform:translateY(-3px);background:var(--n2)}
 .route strong{display:block;font-size:14px;margin-bottom:4px}
 .route span{font-size:12px;opacity:.75}
 .route em{display:block;margin-top:8px;font-style:normal;font-size:12px;font-weight:700;color:var(--gl)}
-
 .two{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
 .premium{background:#f4f0e7}
 .premiumpic{height:440px;border-radius:18px;background:url("img-cabin2.jpg") center/cover;box-shadow:0 16px 40px rgba(7,21,37,.14)}
@@ -133,14 +129,12 @@ section{padding:72px 0}
 .bc-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
 .bc-links a{font-size:12px;font-weight:700;padding:8px 12px;border-radius:999px;background:#fff;border:1px solid #e5e0d6;color:var(--n)}
 .bc-links a:hover{border-color:var(--g)}
-
 .support{background:#fbfaf8}
 .supportgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .supportcard{background:#fff;border:1px solid var(--l);border-radius:16px;padding:24px}
 .supportcard h3{font-size:22px;color:var(--n);margin-bottom:8px}
 .supportcard p{color:var(--m);font-size:14px;margin-bottom:12px}
 .list div{padding:9px 12px;background:#f4f6f8;border-radius:10px;margin:6px 0;font-weight:600;font-size:13px;color:var(--n)}
-
 .faq-wrap{max-width:800px}
 .faqitem{border-top:1px solid var(--l)}
 .faqq{width:100%;border:0;background:none;text-align:left;padding:16px 0;display:flex;justify-content:space-between;align-items:center;gap:12px;font:600 15px var(--font);color:var(--n);cursor:pointer}
@@ -148,13 +142,11 @@ section{padding:72px 0}
 .faqitem.open .faqa{max-height:180px;opacity:1;padding-bottom:14px}
 .plus{color:var(--g);font-size:20px;transition:transform .3s}
 .faqitem.open .plus{transform:rotate(45deg)}
-
 .cta{padding-top:0}
 .ctabox{min-height:360px;border-radius:22px;overflow:hidden;background:linear-gradient(100deg,#03101ef2,#03101e70),url("img-london.jpg") center/cover;display:flex;align-items:center}
 .ctacopy{padding:44px;color:#fff;max-width:580px}
 .ctacopy h2{font-size:clamp(28px,4vw,44px);margin:8px 0 12px}
 .ctacopy p{color:#dce4ec;margin-bottom:18px}
-
 footer{background:#06101e;color:#b8c4d1;padding:52px 0 16px}
 .footgrid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1.1fr;gap:28px}
 .foot h4{color:#fff;margin:0 0 12px;font-size:12px;letter-spacing:.06em;text-transform:uppercase}
@@ -162,10 +154,8 @@ footer{background:#06101e;color:#b8c4d1;padding:52px 0 16px}
 .foot p{font-size:13px;line-height:1.65}
 .legal{border-top:1px solid rgba(255,255,255,.1);margin-top:28px;padding-top:12px;font-size:11px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;opacity:.85}
 .atol{display:inline-block;margin-top:10px;padding:5px 9px;border-radius:7px;border:1px solid rgba(200,169,107,.4);color:var(--gl);font-size:11px;font-weight:700}
-
 .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s cubic-bezier(.22,1,.36,1),transform .7s cubic-bezier(.22,1,.36,1)}
 .reveal.visible{opacity:1;transform:none}
-
 @media(max-width:1050px){
 nav.desk,.phone{display:none}.menu-btn{display:block}
 .fields{grid-template-columns:1fr 1fr}.search .go{grid-column:1/-1}
@@ -189,6 +179,9 @@ nav.desk,.phone{display:none}.menu-btn{display:block}
 {"@context":"https://schema.org","@type":"TravelAgency","name":"Galaxy Fly","url":"https://galaxyfly.co.uk/","telephone":"+442081784401","email":"support@galaxyfly.co.uk","address":{"@type":"PostalAddress","streetAddress":"2 Manor House Lane, Datchet","addressLocality":"Slough","addressRegion":"Berkshire","postalCode":"SL3 9EB","addressCountry":"GB"},"parentOrganization":{"@type":"Organization","name":"Galaxy Travel Ltd","identifier":"12535908"},"areaServed":"GB"}
 </script>
 <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Galaxy Fly","url":"https://galaxyfly.co.uk/","potentialAction":{"@type":"SearchAction","target":"https://galaxyfly.co.uk/contact","query-input":"required name=search_term_string"}}
+</script>
+<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"Where can I find cheap flights from the UK?","acceptedAnswer":{"@type":"Answer","text":"You can explore cheap flight deals from the UK on Galaxy Fly by searching destinations, comparing options, or requesting a quote from our team for your preferred dates and cabin."}},
 {"@type":"Question","name":"Can I book international flights from London?","acceptedAnswer":{"@type":"Answer","text":"Yes. Galaxy Fly helps UK travellers find international flight options from London and other major UK airports including Manchester, Birmingham, Edinburgh and Glasgow."}},
@@ -204,7 +197,6 @@ nav.desk,.phone{display:none}.menu-btn{display:block}
 <span>✦ UK Flight Deals · Worldwide Destinations · ATOL Protected</span>
 <span><a href="tel:02081784401">0208 178 4401</a><a href="mailto:support@galaxyfly.co.uk">support@galaxyfly.co.uk</a></span>
 </div></div>
-
 <header id="header">
 <div class="container nav">
 <a class="logo" href="https://galaxyfly.co.uk/" aria-label="Galaxy Fly home"><i class="mark">G</i><span>GALAXY FLY<small>UK FLIGHT DEALS</small></span></a>
@@ -239,7 +231,6 @@ nav.desk,.phone{display:none}.menu-btn{display:block}
 </div>
 </div>
 </header>
-
 <div class="mnav" id="mnav" aria-hidden="true">
 <button type="button" class="close" id="menu-close" aria-label="Close">✕</button>
 <a href="https://galaxyfly.co.uk/">Home</a>
@@ -255,7 +246,6 @@ nav.desk,.phone{display:none}.menu-btn{display:block}
 <a href="tel:02081784401">📞 0208 178 4401</a>
 <a href="https://galaxyfly.co.uk/contact" class="btn gold" style="margin-top:12px;text-align:center;border:0">Get a Flight Quote</a>
 </div>
-
 <main>
 <section class="hero" id="top">
 <div class="container hero-content">
@@ -268,7 +258,6 @@ nav.desk,.phone{display:none}.menu-btn{display:block}
 </div>
 </div>
 </section>
-
 <div class="container search-wrap" id="search">
 <div class="search">
 <div class="tabs" role="tablist">
@@ -295,7 +284,6 @@ nav.desk,.phone{display:none}.menu-btn{display:block}
 <small class="search-note">Request a quote from our team · Call <a href="tel:02081784401" style="color:var(--n);font-weight:700">0208 178 4401</a> · Or search on <a href="https://galaxyfly.co.uk/" style="color:var(--n);font-weight:700">Galaxy Fly</a></small>
 </div>
 </div>
-
 <section class="intro" id="cheap-flights-uk">
 <div class="container intro-grid">
 <div class="intro-copy reveal">
@@ -308,7 +296,6 @@ nav.desk,.phone{display:none}.menu-btn{display:block}
 <div class="intro-img reveal"><img src="img-aircraft.jpg" alt="Aircraft in flight for UK flight deals" width="800" height="600" loading="lazy"></div>
 </div>
 </section>
-
 <section id="uk-airports">
 <div class="container">
 <div class="head reveal">
@@ -329,7 +316,6 @@ nav.desk,.phone{display:none}.menu-btn{display:block}
 </div>
 </div>
 </section>
-
 <section id="destinations" style="background:#fff">
 <div class="container">
 <div class="head reveal">
@@ -373,7 +359,6 @@ nav.desk,.phone{display:none}.menu-btn{display:block}
 </p>
 </div>
 </section>
-
 <section id="deals" style="background:var(--c)">
 <div class="container">
 <div class="head reveal">
@@ -388,7 +373,6 @@ nav.desk,.phone{display:none}.menu-btn{display:block}
 </div>
 </div>
 </section>
-
 <section id="routes">
 <div class="container">
 <div class="head reveal">
@@ -408,7 +392,6 @@ nav.desk,.phone{display:none}.menu-btn{display:block}
 </div>
 </div>
 </section>
-
 <section class="premium" id="business">
 <div class="container two">
 <div class="premiumpic reveal" role="img" aria-label="Business Class aircraft cabin"></div>
@@ -431,7 +414,6 @@ nav.desk,.phone{display:none}.menu-btn{display:block}
 </div>
 </div>
 </section>
-
 <section class="support" id="why">
 <div class="container">
 <div class="head reveal">
@@ -461,7 +443,6 @@ nav.desk,.phone{display:none}.menu-btn{display:block}
 </div>
 </div>
 </section>
-
 <section id="faq">
 <div class="container">
 <div class="head reveal">
@@ -478,7 +459,6 @@ nav.desk,.phone{display:none}.menu-btn{display:block}
 </div>
 </div>
 </section>
-
 <section class="cta" id="quote">
 <div class="container">
 <div class="ctabox">
@@ -496,7 +476,6 @@ nav.desk,.phone{display:none}.menu-btn{display:block}
 </div>
 </section>
 </main>
-
 <footer>
 <div class="container foot">
 <div class="footgrid">
@@ -544,7 +523,6 @@ nav.desk,.phone{display:none}.menu-btn{display:block}
 </div>
 </div>
 </footer>
-
 <script>
 document.getElementById('year').textContent=new Date().getFullYear();
 const header=document.getElementById('header');
